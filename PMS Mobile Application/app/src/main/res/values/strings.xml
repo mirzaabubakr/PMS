@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Registeration</string>
+    <string name="register">Register</string>
+    <string name="name">Name *</string>
+    <string name="email_id">Email ID *</string>
+    <string name="phone_number">Phone Number *</string>
+    <string name="password">Password *</string>
+    <string name="address">Address *</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="project_status">Project Status</string>
+    <string name="resource_application">Resource Application</string>
+
+
+    <string-array name="P_status_array">
+        <item>Completed</item>
+        <item>Incompleted</item>
+        <item>Delayed</item>
+        <item>Declined</item>
+    </string-array>
+
+    <string-array name="R_status_array">
+        <item>Allocated</item>
+        <item>Not Allocated</item>
+        <item>Urgent</item>
+        <item>Declined</item>
+    </string-array>
+
+
+    <string-array name="cpta_status_array">
+        <item>Scope</item>
+        <item>Budget</item>
+        <item>Timeline</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="title_activity_pudactivity">PUDActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>
+

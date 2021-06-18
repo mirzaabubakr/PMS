@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="270dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="72dp"
+        android:textColor="#FBFBFB"
+        android:textStyle="bold"
+        android:text="Welcome To PMS"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/projectBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Add Project"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/resourceBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Add Resource"
+        app:layout_constraintEnd_toEndOf="@+id/projectBtn"
+        app:layout_constraintStart_toStartOf="@+id/projectBtn"
+        app:layout_constraintTop_toBottomOf="@+id/projectBtn" />
+
+    <Button
+        android:id="@+id/cptaBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Change Project Application"
+        app:layout_constraintEnd_toEndOf="@+id/resourceBtn"
+        app:layout_constraintStart_toStartOf="@+id/resourceBtn"
+        app:layout_constraintTop_toBottomOf="@+id/resourceBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
